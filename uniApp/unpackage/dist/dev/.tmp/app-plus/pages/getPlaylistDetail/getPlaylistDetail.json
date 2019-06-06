@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "歌单列表",
+  "usingComponents": {
+    "song-list": "/components/songList"
+  }
+}

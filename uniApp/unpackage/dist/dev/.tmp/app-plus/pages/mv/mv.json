@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "MV",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "now-play": "/components/nowPlay",
+    "mv-list-t": "/components/mvListT"
+  }
+}

@@ -1,0 +1,90 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style" : {
+                "navigationBarTitleText" : "音乐",
+				"enablePullDownRefresh": true
+            }
+		},
+		{
+			"path": "pages/ranking/ranking",
+			"style" : {
+                "navigationBarTitleText" : "排行榜"
+            }
+		},
+		{
+			"path": "pages/mv/mv",
+			"style" : {
+                "navigationBarTitleText" : "MV",
+				"enablePullDownRefresh": true
+				
+            }
+		},
+		{
+			"path": "pages/rankingList/rankingList",
+			"style": {}
+		},
+		{
+            "path" : "pages/getPlaylistDetail/getPlaylistDetail",
+            "style" : {
+                "navigationBarTitleText" : "歌单列表"
+            }
+        },
+		{
+            "path" : "pages/personalizedList/personalizedList",
+            "style" : {
+                "navigationBarTitleText" : "歌单"
+            }
+        },
+		{
+            "path" : "pages/mvDetail/mvDetail",
+            "style" : {
+                "navigationBarTitleText" : "MV详情"
+            }
+        },
+		{
+            "path" : "pages/singerInfo/singerInfo",
+            "style" : {}
+        },
+		{
+            "path" : "pages/play/play",
+            "style" : {}
+        }
+	],
+	"tabBar" : {
+        //底部选项卡
+        "color" : "#333333",
+        "selectedColor" : "#e91e63",
+        "borderStyle" : "black",
+        "list" : [
+            //tab选项
+            {
+                "text" : "首页",
+                "pagePath" : "pages/index/index",
+                "iconPath" : "static/images/index-d.png",
+                "selectedIconPath" : "static/images/index-a.png"
+            }
+            ,{
+                "text" : "牌行榜",
+                "pagePath" : "pages/ranking/ranking",
+                "iconPath" : "static/images/ranking-d.png",
+                "selectedIconPath" : "static/images/ranking-a.png"
+            }
+			// #ifndef MP-WEIXIN
+            ,{
+                "text" : "MV",
+                "pagePath" : "pages/mv/mv",
+                "iconPath" : "static/images/mv-d.png",
+                "selectedIconPath" : "static/images/mv-a.png"
+            }
+			// #endif
+        ]
+    },
+	"globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "音乐",
+        "navigationBarBackgroundColor" : "#e91e63",
+        "backgroundColor" : "#e91e63"
+    }
+}

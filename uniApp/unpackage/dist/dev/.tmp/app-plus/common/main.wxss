@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.playBtn {
+	position: absolute;
+	z-index: 99;
+	left: 30rpx;
+	top: 30rpx;
+	width: 80rpx;
+	height: 80rpx;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 50%;
+}
+.playBtn .icon {
+	margin: 26rpx 0rpx 0rpx 30rpx;
+	width: 0;
+	height: 0;
+	border-top: 14rpx solid transparent;
+	border-bottom: 14rpx solid transparent;
+	border-left: 28rpx solid #e91e63;
+	border-radius: 5rpx;
+}
+
+
